@@ -44,5 +44,19 @@ public class UserRegistration {
 	    		System.out.println("Mobile no is Invalid");
 	    	}
 	 }
+	 public static void validatePassword(String Password) {
+	    	String pass = "(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*()_-])[a-zA-Z0-9].{8,}$";
+	    	Pattern pattern = Pattern.compile(pass);
+	    	if(pattern.matcher(Password).matches()) {
+	    		System.out.println("Password is Valid");
+	    	}else
+	    	{
+	    		System.out.println("Password is Invalid");
+	    	}
+	 }
+	 
+	 public static void register() {
+			 System.out.println("Registered Successfully..");
+	 }
 	
 }
