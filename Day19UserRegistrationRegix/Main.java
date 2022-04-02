@@ -15,5 +15,9 @@ public class Main {
 		String lastname = sc.nextLine();
 		userregistration.validateLastName(lastname);
 		
+		System.out.println("Enter the Email");
+		String emailId = sc.nextLine();
+		userregistration.validateEmail(emailId);
+		
 	}	
 }
