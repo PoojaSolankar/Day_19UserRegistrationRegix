@@ -11,5 +11,9 @@ public class Main {
 		String firstName = sc.nextLine();
 		userregistration.validateFirstName(firstName);
 		
+		System.out.println("Enter the LastName");
+		String lastname = sc.nextLine();
+		userregistration.validateLastName(lastname);
+		
 	}	
 }
