@@ -28,5 +28,6 @@ public class Main {
 		userregistration.validatePassword(Password);
 		userregistration.register();
 		
+	
 	}	
 }
