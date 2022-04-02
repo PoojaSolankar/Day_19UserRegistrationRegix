@@ -27,7 +27,5 @@ public class Main {
 		String Password = sc.nextLine();
 		userregistration.validatePassword(Password);
 		userregistration.register();
-		
-	
 	}	
 }
